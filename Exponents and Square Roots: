@@ -1,0 +1,6 @@
+let x = 5;
+
+let power = Math.pow(2, x); // Raises 2 to the power of x
+let squareRoot = Math.sqrt(x); // Calculates the square root of x
+
+console.log(power, squareRoot);
