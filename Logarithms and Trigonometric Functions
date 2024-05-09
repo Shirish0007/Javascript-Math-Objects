@@ -1,0 +1,15 @@
+//Logarithms
+let x = 5;
+
+let naturalLog = Math.log(x); // Returns the natural logarithm of x (base e)
+
+console.log(naturalLog);
+
+//Trigonometric Functions:
+let x = 5;
+
+let sine = Math.sin(x); // Returns the sine of x (in radians)
+let cosine = Math.cos(x); // Returns the cosine of x (in radians)
+let tangent = Math.tan(x); // Returns the tangent of x (in radians)
+
+console.log(sine, cosine, tangent);
