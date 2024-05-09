@@ -1,0 +1,8 @@
+let x = 5;
+let y = 2;
+let z = 1;
+
+let max = Math.max(x, y, z); // Returns the largest of the given numbers
+let min = Math.min(x, y, z); // Returns the smallest of the given numbers
+
+console.log(min, max);
