@@ -1,0 +1,15 @@
+let x = 5;
+let y = 2;
+
+let roundedX = Math.round(x); // Rounds x to the nearest integer
+let roundedY = Math.round(y); // Rounds y to the nearest integer
+
+let ceilX = Math.ceil(x); // Returns the smallest integer greater than or equal to x
+let ceilY = Math.ceil(y); // Returns the smallest integer greater than or equal to y
+
+let floorX = Math.floor(x); // Returns the largest integer less than or equal to x
+let floorY = Math.floor(y); // Returns the largest integer less than or equal to y
+
+let truncY = Math.trunc(y); // Returns the integer part of y (removes the decimal part)
+
+console.log(roundedX, roundedY, ceilX, ceilY, floorX, floorY, truncY);
